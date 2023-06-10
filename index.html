@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section class="login">
+        <section class="loginContainer">
+            <h2>Inicio de sesion</h2>
+            <form class="loginContainerForm" id="login">
+                <input type="text" class="input" placeholder="Correo" id="correo">
+                <input type="password" class="input" placeholder="Contraseña" id="contrasenia">
+                <button class="button" id="button">Iniciar sesion</button>
+                <div class="loginContainberRemember">
+                    <label for="">
+                        <input type="checkbox" id="cbox1" value="checkbox"> Recuerdame
+                    </label>
+                    <a href="">Olvide mi contraseña</a>
+                </div>
+            </form>
+            <section class="loginContainerSocial">
+                <a href="">
+                    <div class="sesion"><img src="icons/github.png" alt="">Iniciar sesion con github</div>
+                </a>
+                <a href="">
+                    <div class="sesion"><img src="icons/google.png" alt="">Iniciar sesion con google</div>
+                </a>
+                <a href="">
+                    <div class="sesion"><img src="icons/twitter.png" alt="">Iniciar sesion con twitter</div>
+                </a>
+            </section>
+            <p class="loginContainerRegister">No tienen ninguna cuenta <a href="">Registrate</a></p>
+        </section>
+        <footer>
+            <a href="">Terminos de uso</a>
+            <a href="">Declaraciones de privacidad</a>
+            <a href="">Centro de ayuda</a>
+        </footer>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

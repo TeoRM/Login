@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    background: linear-gradient(#41bf73, #32c4e1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 30px;
+    min-height: calc(100vh -200px);
+}
+
+.loginContainer {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.loginContainerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.loginContainberRemember {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+
+button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section div img {
+    width: 30px;
+    margin-right: 10px;
+    margin: 9px;
+}
+
+footer {
+    text-align: left;
+    width: 100%;
+    margin: 20px;
+}
+
+footer a {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sesion {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+form div a {
+    font-weight: bold;
+}
